@@ -16,7 +16,7 @@ This project is a simple web application that features a sliding navigation bar 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
-2. Open the index.html file in your preferred web browser to view the project.
+2. Open the `index.html` file in your preferred web browser to view the project.
 
 ## Usage 
 - Click the button to toggle the slider navigation bar.
@@ -25,12 +25,8 @@ This project is a simple web application that features a sliding navigation bar 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
 
-## Technologies Used
-- HTML
-- CSS
-
 ## License
-This project is open-sourse and available under MIT license.
+This project is open-source and available under MIT license.
 
 ## Acknowledgments
 - Inspired by web development tutorials on Apna College.
