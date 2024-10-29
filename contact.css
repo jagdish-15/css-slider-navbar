@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(contact-background.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_box {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 600px;
+    width: 600px;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px white;
+    color: white;
+}
+
+.main_box h1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main_box form label,
+.main_box form input,
+.main_box form textarea {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main_box form input,
+.main_box form textarea {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 30px;
+    width: 400px;
+    border: 2px solid white;
+    box-shadow: 0 0 1px white;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;;
+}
+
+.main_box form textarea::placeholder {
+    color: white;
+    opacity: 0.6;
+}
+
+.main_box form label {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#subject {
+    height: 90px;
+    padding: 5px;
+}
+
+.main_box form button {
+    font-size: 25px;
+    border-radius: 25px;
+    padding: 2px 20px;
+    border: none;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 
+                0 0 30px rgba(255, 255, 255, 0.6), 
+                0 0 40px rgba(255, 255, 255, 0.4);
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.main_box form button:hover {
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.8), 
+                0 0 35px rgba(255, 255, 255, 0.6), 
+                0 0 45px rgba(255, 255, 255, 0.4); 
+    transform: scale(1.1);
+}
+
+.main_box form input:focus, 
+.main_box form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px white;
+    transform: scale(1.05);
+}
